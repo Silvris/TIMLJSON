@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TIMLJSON": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
+    }
+  }
+}
