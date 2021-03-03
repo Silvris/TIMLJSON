@@ -150,9 +150,9 @@ namespace TIMLJSON.Classes
                 writer.WriteNumber("keyframeType", 3);
                 writer.WriteStartObject("MainData");
                 writer.WriteNumber("red", colorKey.MainData.red);
-                writer.WriteNumber("green", colorKey.MainData.red);
-                writer.WriteNumber("blue", colorKey.MainData.red);
-                writer.WriteNumber("alpha", colorKey.MainData.red);
+                writer.WriteNumber("green", colorKey.MainData.green);
+                writer.WriteNumber("blue", colorKey.MainData.blue);
+                writer.WriteNumber("alpha", colorKey.MainData.alpha);
                 writer.WriteEndObject();
             }
             writer.WriteNumber("bounceForwardLimit", keyframe.bounceForwardLimit);
